@@ -1,0 +1,14 @@
+ //To build the image follow and use this commands 
+ $sudo docker build . -t my_sql:v2
+ 
+ // to view whether image is pulled or not
+ $sudo docker images
+ 
+ //To run that image
+ $sudo docker run -itd my_sql:v2  ( v2 is version2 , its just a tag you can give any)
+ 
+ //now to execute 
+ $sudo docker exec -it <the id of image> bash
+ 
+ 
+ All the required files with screenshot is available in the repository
