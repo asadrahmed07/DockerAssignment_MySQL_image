@@ -12,3 +12,13 @@
  
  
  All the required files with screenshot is available in the repository
+ 
+ after the sql image starts running 
+ sql> mysql -upucsd -p
+ use password : pucsd
+
+ // to view the databases 
+ sql> show databases;
+ sql> use pucsdStudents;
+ sql> select * from studentData;
+ 
